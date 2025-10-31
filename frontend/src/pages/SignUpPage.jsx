@@ -19,7 +19,7 @@ function SignUpPage() {
         <BorderAnimatedContainer>
           <div className="w-full flex flex-col md:flex-row">
 
-            {/* FORM CLOUMN - LEFT SIDE */}
+            {/* FORM - LEFT SIDE */}
             <div className="md:w-1/2 p-8 flex items-center justify-center md:border-r border-slate-600/30">
               <div className="w-full max-w-md">
 
@@ -32,7 +32,6 @@ function SignUpPage() {
 
                 {/* FORM */}
                 <form onSubmit={handleSubmit} className="space-y-6">
-
                   {/* FULL NAME */}
                   <div>
                     <label className="auth-input-label">Full Name</label>
@@ -44,7 +43,7 @@ function SignUpPage() {
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         className="input"
-                        placeholder="Dulshan chamika"
+                        placeholder="Dulshan"
                       />
                     </div>
                   </div>
@@ -99,7 +98,7 @@ function SignUpPage() {
               </div>
             </div>
 
-            {/* FORM ILLUSTRATION - RIGHT SIDE */}
+            {/* FORM - RIGHT SIDE */}
             <div className="hidden md:w-1/2 md:flex items-center justify-center p-6 bg-gradient-to-bl from-slate-800/20 to-transparent">
               <div>
                 <img
