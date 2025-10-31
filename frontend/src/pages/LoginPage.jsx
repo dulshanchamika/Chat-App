@@ -23,8 +23,8 @@ function LoginPage() {
               <div className="w-full max-w-md">
                 {/* HEADING TEXT */}
                 <div className="text-center mb-8">
-                  <MessageCircleIcon className="w-12 h-12 mx-auto text-slate-400 mb-4" />
-                  <h2 className="text-2xl font-bold text-slate-200 mb-2">Welcome Back</h2>
+                  <MessageCircleIcon className="w-12 h-12 mx-auto text-purple-400 mb-4" />
+                  <h2 className="text-2xl font-bold text-purple-200 mb-2">Welcome Back</h2>
                   <p className="text-slate-400">Login to access to your account</p>
                 </div>
 
@@ -90,7 +90,7 @@ function LoginPage() {
                   className="w-full h-auto object-contain"
                 />
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-medium text-cyan-400">Connect anytime, anywhere</h3>
+                  <h3 className="text-xl font-medium text-purple-200">Connect anytime, anywhere</h3>
 
                   <div className="mt-4 flex justify-center gap-4">
                     <span className="auth-badge">Free</span>
